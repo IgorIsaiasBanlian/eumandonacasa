@@ -140,9 +140,9 @@ void loop(){
           client.println("<body>");
           client.println("<div id='wrapper'>Eu Mando na Casa<br>");
 
-          client.println("<div style='display: inline-block; width: 400px;'>");
+          client.println("<div style='display: inline-block; width: 300px;'>");
 
-          for(int i=0;i<=7;i++){
+          for(int i=0;i<=1;i++){
             client.print("<div id='porta");
             client.print(i+2);
             client.print("_estado'>");
@@ -158,7 +158,7 @@ void loop(){
             client.println("_botao' style='position: relative;'></div>");
 
             if(i==3){
-              client.println("</div><div style='display: inline-block; width: 400px;'>");
+              client.println("</div><div style='display: inline-block; width: 300px;'>");
             }
           }
           client.println("</div>");
