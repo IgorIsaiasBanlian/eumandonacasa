@@ -24,7 +24,7 @@ root {
         font-family: arial;
 }
 
-#porta2_estado , #porta2_titulo , #porta3_estado , #porta3_titulo , #porta4_estado , #porta4_titulo , #porta5_estado , #porta5_titulo , #porta6_estado , #porta6_titulo , #porta7_estado , #porta7_titulo , #porta8_estado , #porta8_titulo, #porta9_estado , #porta9_titulo {
+#porta2_estado , #porta2_titulo , #porta3_estado , #porta3_titulo {
     visibility: hidden;
 }
 
