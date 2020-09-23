@@ -133,8 +133,8 @@ void loop(){
           client.println("<head>");
           client.println("<title>Eu Mando na Casa</title>");
           client.println("<meta http-equiv='Content-Type' content='text/html; charset=ISO-8859-1'>");
-          client.println("<link rel='stylesheet' type='text/css' href='https://www.trueexpert.tk/minhacasa/RemoteAutomationV2.0.css' />");
-          client.println("<script type='text/javascript' src='https://www.trueexpert.tk/minhacasa/RemoteAutomationV2.0.js'/></script>");
+          client.println("<link rel='stylesheet' type='text/css' href='https://www.trueexpert.com.br/minhacasa/RemoteAutomationV2.0.css' />");
+          client.println("<script type='text/javascript' src='https://www.trueexpert.com.br/minhacasa/RemoteAutomationV2.0.js'/></script>");
 
           client.println("</head>");
           client.println("<body>");
