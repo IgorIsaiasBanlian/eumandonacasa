@@ -49,10 +49,10 @@
 
 // ─── Configuração de rede ────────────────────────────────────────────────────
 static const byte MAC_ADDR[] = { 0x90, 0xA2, 0xDA, 0x00, 0x9B, 0x36 };
-static const IPAddress IP_ADDR  (192, 168,   15,  99);
-static const IPAddress GATEWAY  (192, 168,   15,   1);
+static const IPAddress IP_ADDR  (192, 168,   1,  99);
+static const IPAddress GATEWAY  (192, 168,   1,   1);
 static const IPAddress SUBNET   (255, 255, 255,   0);
-static const uint16_t  HTTP_PORT = 2846;
+static const uint16_t  HTTP_PORT = 80;
 
 // ─── Hora real (NTP) ─────────────────────────────────────────────────────────
 // O Arduino consulta servidores NTP.br (e um do Google como reserva) por IP,
